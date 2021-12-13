@@ -1,3 +1,52 @@
+body{
+    background-color:rgba(102, 102, 235, 0.205)
+}
 img{
     width: 15rem;
+}
+#primeraParte{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.datosPrincipales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.imagenPerfil{
+    margin-right: 150px;
+}
+.datosPrincipales h1{
+    font-size: 30px;
+}
+.datosPrincipales h3{
+    font-size: 28px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+.datosPrincipales h3 span{
+    text-transform: none;
+    text-decoration: none;
+}
+.estudios{
+    display: flex;
+    justify-content: space-around;
+    border: solid red 1px;
+    padding: 5px;
+    padding-left: 15px;
+    margin: 10px;
+}
+.sobreMi{
+    display: flex;
+    justify-content: space-around;
+    border: dashed black 1px;
+    margin: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sobreMi a:hover{
+    color: red;
 }
